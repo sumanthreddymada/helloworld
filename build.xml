@@ -50,6 +50,7 @@
     </copy>
   </target>
 
+
 <target name="compile" depends="prepare"
           description="Compile Java sources and copy to WEB-INF/classes dir">
     <javac srcdir="${src.home}"
@@ -70,4 +71,5 @@
   </target>
 
 </project> 
+
 
